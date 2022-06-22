@@ -10,12 +10,12 @@ description = "Minimal example Rimu Markup application."
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io") // SJR
+    maven("https://jitpack.io")
 }
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("com.github.srackham:rimu-kt:11.1.5")    // SJR
+    implementation("com.github.srackham:rimu-kt:11.1.5")
 }
 
 tasks.test {
