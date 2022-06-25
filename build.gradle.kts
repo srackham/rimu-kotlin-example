@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("com.github.srackham:rimu-kt:11.1.5")
+    implementation("com.github.srackham:rimu-kt:11.3.1")
 }
 
 tasks.test {
